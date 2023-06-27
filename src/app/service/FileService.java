@@ -12,6 +12,6 @@ public class FileService {
     }
 
     protected Path getPath(String fileName) {
-        return Path.of(Constants.BASE_PATH + Constants.BASE_PATH_IN + fileName);
+        return Path.of(Constants.BASE_PATH + Constants.BASE_PATH_IN + fileName + ".txt");
     }
 }
